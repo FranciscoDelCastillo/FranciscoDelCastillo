@@ -83,14 +83,6 @@ Además de programar, administro empresas. Por eso diseño cada sistema pensando
 
 ---
 
-### 📈 Actividad
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FranciscoDelCastillo&bg_color=000000&color=4cc3ff&line=2f6bff&point=ff2340&area=true&area_color=2f6bff&hide_border=true&custom_title=Contribuciones" alt="Gráfica de actividad" />
-</p>
-
----
-
 <p align="center">
   <b>¿Tienes un negocio con tareas que se repiten todos los días?</b><br/>
   Cuéntame tu idea y te mando una cotización sin costo.
