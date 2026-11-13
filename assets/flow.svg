@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Ejemplo real de automatización en Rentaly: se registra el pago, se genera el recibo, se envía por WhatsApp y se guarda en Drive">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1633"/><stop offset=".6" stop-color="#060a18"/></linearGradient>
+    <style>
+      .f{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+      .node{animation:on 6s infinite}
+      .n2{animation-delay:1.5s}.n3{animation-delay:3s}.n4{animation-delay:4.5s}
+      @keyframes on{0%,100%{stroke:#1a2547}3%,22%{stroke:#4cc3ff}30%{stroke:#1a2547}}
+      .live{animation:lv 1.6s ease-out infinite;transform-origin:1062px 34px}
+      @keyframes lv{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.4)}}
+    </style>
+  </defs>
+  <rect x=".5" y=".5" width="1199" height="249" rx="18" fill="url(#bg)" stroke="#1a2547"/>
+  <text x="40" y="40" class="f" font-size="14" fill="#8a93a8">Ejemplo real · Rentaly</text>
+  <text x="40" y="64" class="f" font-size="20" font-weight="700" fill="#ffffff">Cobro de renta en piloto automático</text>
+  <circle cx="1062" cy="34" r="5" fill="#25d366" class="live"/><circle cx="1062" cy="34" r="5" fill="#25d366"/>
+  <text x="1076" y="39" class="f" font-size="14" font-weight="700" fill="#25d366">En vivo</text>
+
+  <path id="track" d="M150 150 H1050" stroke="#1a2547" stroke-width="3" stroke-dasharray="6 8" fill="none"/>
+  <circle r="7" fill="#4cc3ff"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.05;.8;1" calcMode="linear"><mpath href="#track"/></animateMotion></circle>
+
+  <g class="f">
+    <g transform="translate(40 100)">
+      <rect class="node" width="220" height="100" rx="14" fill="#050814" stroke="#1a2547" stroke-width="2"/>
+      <rect x="18" y="18" width="40" height="40" rx="10" fill="#2f6bff" fill-opacity=".18"/>
+      <text x="38" y="45" text-anchor="middle" font-size="20">💳</text>
+      <text x="72" y="36" font-size="15" font-weight="700" fill="#fff">Se registra</text>
+      <text x="72" y="56" font-size="15" font-weight="700" fill="#fff">el pago</text>
+      <text x="18" y="84" font-size="12.5" fill="#8a93a8">En línea o en la oficina</text>
+    </g>
+    <g transform="translate(340 100)">
+      <rect class="node n2" width="220" height="100" rx="14" fill="#050814" stroke="#1a2547" stroke-width="2"/>
+      <rect x="18" y="18" width="40" height="40" rx="10" fill="#2f6bff" fill-opacity=".18"/>
+      <text x="38" y="45" text-anchor="middle" font-size="20">📄</text>
+      <text x="72" y="36" font-size="15" font-weight="700" fill="#fff">Se genera</text>
+      <text x="72" y="56" font-size="15" font-weight="700" fill="#fff">el recibo PDF</text>
+      <text x="18" y="84" font-size="12.5" fill="#8a93a8">Con folio, mes e inmueble</text>
+    </g>
+    <g transform="translate(640 100)">
+      <rect class="node n3" width="220" height="100" rx="14" fill="#050814" stroke="#1a2547" stroke-width="2"/>
+      <rect x="18" y="18" width="40" height="40" rx="10" fill="#25d366" fill-opacity=".18"/>
+      <text x="38" y="45" text-anchor="middle" font-size="20">💬</text>
+      <text x="72" y="36" font-size="15" font-weight="700" fill="#fff">Se envía por</text>
+      <text x="72" y="56" font-size="15" font-weight="700" fill="#fff">WhatsApp</text>
+      <text x="18" y="84" font-size="12.5" fill="#8a93a8">Llega en segundos</text>
+    </g>
+    <g transform="translate(940 100)">
+      <rect class="node n4" width="220" height="100" rx="14" fill="#050814" stroke="#1a2547" stroke-width="2"/>
+      <rect x="18" y="18" width="40" height="40" rx="10" fill="#ff2340" fill-opacity=".18"/>
+      <text x="38" y="45" text-anchor="middle" font-size="20">📁</text>
+      <text x="72" y="36" font-size="15" font-weight="700" fill="#fff">Se guarda</text>
+      <text x="72" y="56" font-size="15" font-weight="700" fill="#fff">solo en Drive</text>
+      <text x="18" y="84" font-size="12.5" fill="#8a93a8">En el expediente</text>
+    </g>
+    <text x="40" y="230" font-size="14" fill="#8a93a8">Antes: 15 minutos por recibo, a mano</text>
+    <text x="1160" y="230" text-anchor="end" font-size="15" font-weight="700" fill="#25d366">Ahora: menos de 1 minuto · +16 h libres al mes</text>
+  </g>
+</svg>

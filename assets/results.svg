@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-label="Resultados: 15 a 1 minuto por recibo, más de 16 horas ahorradas al mes, 100% de solicitudes completas y 0 pesos al mes en P-loo">
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#2f6bff"/><stop offset=".6" stop-color="#4cc3ff"/><stop offset="1" stop-color="#ff2340"/></linearGradient>
+    <style>
+      .f{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+      .c{opacity:0;animation:up .8s cubic-bezier(.2,.8,.2,1) forwards}
+      .c2{animation-delay:.2s}.c3{animation-delay:.4s}.c4{animation-delay:.6s}
+      @keyframes up{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+      .b{transform-box:fill-box;transform-origin:left;transform:scaleX(0);animation:grow 1.4s 1s cubic-bezier(.2,.8,.2,1) forwards}
+      @keyframes grow{to{transform:scaleX(1)}}
+    </style>
+  </defs>
+  <g class="f">
+    <g class="c"><rect x=".5" y=".5" width="285" height="179" rx="16" fill="#0a1126" stroke="#1a2547"/>
+      <text x="24" y="70" font-size="40" font-weight="800" fill="#fff" letter-spacing="-1">15<tspan fill="#ff2340"> → </tspan>1 min</text>
+      <text x="24" y="104" font-size="14" fill="#c2c9da">por recibo de renta</text>
+      <text x="24" y="150" font-size="13" font-weight="700" fill="#4cc3ff">Rentaly · Inmobiliaria</text>
+      <rect class="b" x="24" y="162" width="238" height="3" rx="1.5" fill="url(#bar)"/></g>
+    <g transform="translate(305 0)"><g class="c c2"><rect x=".5" y=".5" width="285" height="179" rx="16" fill="#0a1126" stroke="#1a2547"/>
+      <text x="24" y="70" font-size="40" font-weight="800" fill="#fff" letter-spacing="-1">+16 h</text>
+      <text x="24" y="104" font-size="14" fill="#c2c9da">ahorradas cada mes</text>
+      <text x="24" y="150" font-size="13" font-weight="700" fill="#4cc3ff">65 contratos · 70+ recibos</text>
+      <rect class="b" x="24" y="162" width="238" height="3" rx="1.5" fill="url(#bar)"/></g></g>
+    <g transform="translate(610 0)"><g class="c c3"><rect x=".5" y=".5" width="285" height="179" rx="16" fill="#0a1126" stroke="#1a2547"/>
+      <text x="24" y="70" font-size="40" font-weight="800" fill="#fff" letter-spacing="-1">100%</text>
+      <text x="24" y="104" font-size="14" fill="#c2c9da">de cotizaciones llegan completas</text>
+      <text x="24" y="150" font-size="13" font-weight="700" fill="#4cc3ff">Multimodal Ortiz · Logística</text>
+      <rect class="b" x="24" y="162" width="238" height="3" rx="1.5" fill="url(#bar)"/></g></g>
+    <g transform="translate(915 0)"><g class="c c4"><rect x=".5" y=".5" width="284" height="179" rx="16" fill="#0a1126" stroke="#1a2547"/>
+      <text x="24" y="70" font-size="40" font-weight="800" fill="#fff" letter-spacing="-1">$0<tspan font-size="20" fill="#8a93a8"> /mes</tspan></text>
+      <text x="24" y="104" font-size="14" fill="#c2c9da">avisos al celular en segundos</text>
+      <text x="24" y="150" font-size="13" font-weight="700" fill="#4cc3ff">P-loo · IoT</text>
+      <rect class="b" x="24" y="162" width="238" height="3" rx="1.5" fill="url(#bar)"/></g></g>
+  </g>
+</svg>
